@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="person_hint">Digite seu nome</string>
+    <string name="email_hint">Digite seu e-mail</string>
+    <string name="password_hint">Digite sua senha</string>
+    <string name="search_hint">Pesquise algo aqui</string>
+
+    <string name="person_helper">Ex: João</string>
+    <string name="email_helper">Ex: meu@email.com</string>
+    <string name="password_helper">Ex: @Senha_Segura123</string>
+    <string name="search_helper">Ex: Pão de queijo</string>
+
+    <string name="person_error">Erro. Verifique o formato de nome e digite novamente.</string>
+    <string name="email_error">Erro. Verifique o formato de e-mail e digite novamente.</string>
+    <string name="password_error">Erro. Verifique o formato de senha e digite novamente.</string>
+    <string name="search_error">Erro. Verifique o formato de pesquisa e digite novamente.</string>
+</resources>
