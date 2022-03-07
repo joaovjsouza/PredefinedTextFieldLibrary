@@ -19,6 +19,11 @@ class PredefinedTextField @JvmOverloads constructor(
     private var hintText: String = ""
     private var helperText: String = ""
     private var errorText: String = ""
+    var text: String = ""
+        set(value) {
+            field = value
+                binding.editText.setText(field)
+        }
 
     init {
         setLayout(attrs)
