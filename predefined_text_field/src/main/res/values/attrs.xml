@@ -7,6 +7,7 @@
             <enum name="email" value="1" />
             <enum name="password" value="2" />
             <enum name="search" value="3" />
+            <enum name="image_link" value="4" />
         </attr>
         <attr name="hint_text" format="string" />
         <attr name="helper_text" format="string" />

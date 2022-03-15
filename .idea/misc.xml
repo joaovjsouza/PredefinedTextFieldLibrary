@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PredefinedTextFieldLibrary/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PredefinedTextFieldLibrary/predefined_text_field/src/main/res/layout/res_predefined_text_field.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1671195652173913" />
       </map>
     </option>
   </component>

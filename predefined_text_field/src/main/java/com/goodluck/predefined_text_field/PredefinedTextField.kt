@@ -22,8 +22,9 @@ class PredefinedTextField @JvmOverloads constructor(
     var text: String = ""
         set(value) {
             field = value
-                binding.editText.setText(field)
+            binding.editText.setText(field)
         }
+        get() = binding.editText.text.toString()
 
     init {
         setLayout(attrs)
@@ -49,6 +50,7 @@ class PredefinedTextField @JvmOverloads constructor(
                     1 -> setupEmailPredefinedStyle()
                     2 -> setupPasswordPredefinedStyle()
                     3 -> setupSearchPredefinedStyle()
+                    4 -> setupImageLinkPredefinedStyle()
                 }
             }
 
@@ -123,6 +125,15 @@ class PredefinedTextField @JvmOverloads constructor(
         binding.layout.run {
             startIconDrawable = getIcon(R.drawable.ic_round_search_24)
             hint = hintTextChooser(getString(R.string.search_hint))
+        }
+    }
+
+    private fun setupImageLinkPredefinedStyle() {
+        binding.layout.run {
+            startIconDrawable = getIcon(R.drawable.ic_round_image_search_24)
+            endIconMode = TextInputLayout.END_ICON_CUSTOM
+            endIconDrawable = getIcon(R.drawable.ic_round_refresh_24)
+            hint = hintTextChooser(getString(R.string.image_link_hint))
         }
     }
 }

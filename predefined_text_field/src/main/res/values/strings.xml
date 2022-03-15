@@ -4,6 +4,7 @@
     <string name="email_hint">Digite seu e-mail</string>
     <string name="password_hint">Digite sua senha</string>
     <string name="search_hint">Pesquise algo aqui</string>
+    <string name="image_link_hint">Cole o link de uma imagem</string>
 
     <string name="person_helper">Ex: João</string>
     <string name="email_helper">Ex: meu@email.com</string>
